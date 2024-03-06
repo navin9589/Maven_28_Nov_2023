@@ -39,6 +39,8 @@ public class TestNgBasic {
         System.setProperty("webDriver.chrome.driver", "C:\\Users\\navin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
+        System.out.println("Hello..everyone.");
+
         driver.manage().window().maximize();
         driver.close();
     }
