@@ -26,6 +26,7 @@ public class TestNgBasic {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.facebook.com/");
         driver.manage().window().maximize();
+        System.out.println("Hello World");
         driver.close();
     }
 
